@@ -8,7 +8,6 @@ const url = "mongodb+srv://morvarid_mf:notes1234@cluster0.3lgyeg2.mongodb.net/?r
 const app = express()
 app.use(express.json());
 app.use(cors({
-    credentials: true,
     origin: ["http://localhost:3000", "https://mern-notes.onrender.com"]
 }))
 

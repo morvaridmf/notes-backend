@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const NoteModel = require("./model/model")
 const mongoose = require("mongoose")
+const path = require("path")
 const url = "mongodb+srv://morvarid_mf:notes1234@cluster0.3lgyeg2.mongodb.net/?retryWrites=true&w=majority"
 
 
